@@ -1,0 +1,38 @@
+{
+  "name": "tabby-sidebar-autohide",
+  "version": "1.0.1",
+  "description": "Auto-hide tabby-better-sidebar after SSH connect; hotkey to toggle sidebar",
+  "keywords": [
+    "tabby-plugin",
+    "tabby",
+    "sidebar",
+    "sidebar-autohide",
+    "better-sidebar",
+    "ssh"
+  ],
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "webpack --mode production",
+    "watch": "webpack --mode development --watch"
+  },
+  "author": "yihan",
+  "license": "MIT",
+  "devDependencies": {
+    "@angular/common": "^15.0.0",
+    "@angular/core": "^15.0.0",
+    "@angular/forms": "^15.0.0",
+    "@types/webpack-env": "^1.16.0",
+    "rxjs": "^7.3.0",
+    "tabby-core": "^1.0.231-nightly.0",
+    "ts-loader": "^9.4.0",
+    "typescript": "^4.9.5",
+    "webpack": "^5.24.4",
+    "webpack-cli": "^4.5.0"
+  },
+  "peerDependencies": {
+    "@angular/common": "^15.0.0",
+    "@angular/core": "^15.0.0",
+    "rxjs": "^7.3.0",
+    "tabby-core": "^1.0.231-nightly.0"
+  }
+}
