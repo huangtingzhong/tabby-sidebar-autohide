@@ -1,6 +1,6 @@
 # tabby-sidebar-autohide
 
-Tabby 插件：在 SSH 连接成功后自动隐藏 [tabby-better-sidebar](https://github.com/) 侧栏，并可用快捷键切换显示/隐藏。
+Tabby 插件：在 SSH 连接成功后自动隐藏 **tabby-better-sidebar** 侧栏，并可用快捷键切换显示/隐藏。
 
 ## 功能
 
